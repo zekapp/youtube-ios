@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F77A88EE252AA78D002A58F1 /* CasheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A88ED252AA78D002A58F1 /* CasheManager.swift */; };
+		F77A88F1252AB937002A58F1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A88F0252AB937002A58F1 /* DetailViewController.swift */; };
 		F77D2BB92521A3F300ADDDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2BB82521A3F300ADDDAE /* AppDelegate.swift */; };
 		F77D2BBB2521A3F300ADDDAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2BBA2521A3F300ADDDAE /* SceneDelegate.swift */; };
 		F77D2BBD2521A3F300ADDDAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2BBC2521A3F300ADDDAE /* ViewController.swift */; };
@@ -24,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		F77A88ED252AA78D002A58F1 /* CasheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasheManager.swift; sourceTree = "<group>"; };
+		F77A88F0252AB937002A58F1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F77A88F4252ACAA5002A58F1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F77D2BB52521A3F300ADDDAE /* youtube-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77D2BB82521A3F300ADDDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F77D2BBA2521A3F300ADDDAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,11 +54,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F77A88F3252ACAA5002A58F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77A88F4252ACAA5002A58F1 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F77D2BAC2521A3F300ADDDAE = {
 			isa = PBXGroup;
 			children = (
 				F77D2BB72521A3F300ADDDAE /* youtube-ios */,
 				F77D2BB62521A3F300ADDDAE /* Products */,
+				F77A88F3252ACAA5002A58F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				F77D2BBC2521A3F300ADDDAE /* ViewController.swift */,
+				F77A88F0252AB937002A58F1 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -198,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77A88F1252AB937002A58F1 /* DetailViewController.swift in Sources */,
 				F77A88EE252AA78D002A58F1 /* CasheManager.swift in Sources */,
 				F77D2BBD2521A3F300ADDDAE /* ViewController.swift in Sources */,
 				F77D2BB92521A3F300ADDDAE /* AppDelegate.swift in Sources */,

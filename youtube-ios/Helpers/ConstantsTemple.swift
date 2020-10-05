@@ -12,4 +12,5 @@ import Foundation
 //    static var PLAYLIST_ID = "UUS32Bmm4aPGAYQcXyks3meA"
 //    static var API_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=\(Constants.PLAYLIST_ID)&key=\(Constants.API_KEY)"
 //    static var VIDEOCELL_ID = "VideoCell"
+//    static var TY_EMBED_URL = "https://www.youtube.com/embed/"
 //}

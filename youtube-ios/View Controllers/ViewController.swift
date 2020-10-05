@@ -55,5 +55,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //Confimr that a video was selected
+        
+        guard tableView.indexPathForSelectedRow != nil else {
+            return
+        }
+        
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+        
+        let detailVC = segue.destination as! DetailViewController
+        
+        detailVC.video = selectedVideo
+    }
+    
 }
 
